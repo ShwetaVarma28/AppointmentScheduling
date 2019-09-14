@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebdriverTest">
+	<test name="Test">
+		<!-- <groups> <run> <include name="checking" /> </run> </groups> -->
+
+		<classes>
+
+			<class name="TestCases.AppointmentOptions">
+				<methods>
+
+					<include name="editAppointmentTest" />
+
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

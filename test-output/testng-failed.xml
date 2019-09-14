@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WebdriverTest]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.AppointmentOptions">
+        <methods>
+          <include name="initiateDriver"/>
+          <include name="logingInTheApplication"/>
+          <include name="editAppointmentTest"/>
+          <include name="logingOutOfTheApplication"/>
+          <include name="endGame"/>
+        </methods>
+      </class> <!-- TestCases.AppointmentOptions -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [WebdriverTest] -->

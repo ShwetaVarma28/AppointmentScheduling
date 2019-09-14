@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="date" value="19082019"/>
+  <parameter name="note" value="Edited notes for the appointment"/>
+  <parameter name="locate" value="OPD-1"/>
+  <parameter name="setdate" value="29082019"/>
+  <parameter name="title1" value="Test TB (GAN203008)"/>
+  <parameter name="title2" value="Test Diabetes (GAN203007)"/>
+  <parameter name="serviceName" value="Cardiology"/>
+  <parameter name="locale" value="English"/>
+  <parameter name="endTime1" value="10:00am"/>
+  <parameter name="password" value="Admin123"/>
+  <parameter name="endTime2" value="9:00am"/>
+  <parameter name="startTime2" value="8:00am"/>
+  <parameter name="startTime1" value="9:00am"/>
+  <parameter name="location" value="General Ward"/>
+  <parameter name="name2" value="Test Diabetes"/>
+  <parameter name="name1" value=" test tb"/>
+  <parameter name="username" value="superman"/>
+  <parameter name="status" value="Scheduled"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestCases.AppointmentStatusFilter">
+        <methods>
+          <include name="endGame"/>
+          <include name="filterAppointmentTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.AppointmentStatusFilter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
